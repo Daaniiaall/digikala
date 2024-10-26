@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: yekan;
+  src: url("../../public/fonts/YekanBakh-Light.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../../public/fonts/YekanBakh-Regular.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../../public/fonts/YekanBakh-Bold.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../../public/fonts/YekanBakh-Heavy.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../../public/fonts/YekanBakh-Fat.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply font-yekan font-light;
+}
+
+@layer utilities {
+  .filterBar button {
+    @apply min-w-max min-h-max border rounded-2xl p-2 flex items-center gap-1 mb-6;
+  }
+}
+@layer utilities {
+  .filterSideBarButton {
+    @apply border-b py-3 w-full text-right flex items-center justify-between text-sm
+  }
+  .filterSideBarButton button {
+    @apply text-xl
+  }
+}
+
+@layer utilities {
+  .moratabsazi{
+    @apply flex flex-col 
+  }
+  .moratabsazi button {
+    @apply border-t w-full text-right py-3 text-neutral-500 text-sm;
+  }
+}
