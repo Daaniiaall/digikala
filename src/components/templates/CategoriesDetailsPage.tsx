@@ -95,7 +95,7 @@ const CategoriesDetailsPage: React.FC<CategoriesDetailsPageProps> = ({data , id}
   return (
     <div>
       <CategoryBanner items={bannerURL} />
-      <CategoryChild children={categoryChildObj} id={id} />
+      <CategoryChild childrenObj={categoryChildObj} id={id} />
       <Increadibles data={increadibleItems} />
       <FavoriteBrands brandsData={brandsData} id={id}/>
     </div>

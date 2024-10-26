@@ -1,4 +1,3 @@
-import ProductsPageLayout from "@/app/(products)/layout";
 import { ProductData } from "types/ProductsDetails.types";
 
 type ProductsDetailsPageProps = {

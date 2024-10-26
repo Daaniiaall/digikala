@@ -8,11 +8,11 @@ function SignupPage() {
 
   const registerHandler = async () => {
     // console.log("first")
-    const res = await fetch("http://80.75.14.90:9090/users/register" , {
-      method: "POST",
-      body: JSON.stringify({username ,password}),
-    })
-    const result = await res.json()
+    // const res = await fetch("http://80.75.14.90:9090/users/register" , {
+    //   method: "POST",
+    //   body: JSON.stringify({username ,password}),
+    // })
+    // const result = await res.json()
     // console.log(result)
   }
 

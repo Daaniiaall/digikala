@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { IoSearch } from "react-icons/io5";
-import { IoPersonOutline } from "react-icons/io5";
+// import { IoPersonOutline } from "react-icons/io5";
 import { TbLogin } from "react-icons/tb";
 import { RiShoppingCartLine } from "react-icons/ri";
 import Link from "next/link";

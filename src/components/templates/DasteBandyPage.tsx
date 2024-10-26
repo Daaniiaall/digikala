@@ -38,7 +38,6 @@ interface Brands {
 }
 
 export interface Products {
-  brand: any;
   id: number;
   images: Images;
   price: Price;

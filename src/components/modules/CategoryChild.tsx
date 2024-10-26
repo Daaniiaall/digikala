@@ -8,18 +8,18 @@ interface CategoryChild {
 }
 
 type CategoryChildProps = {
-  children: CategoryChild[];
+  childrenObj: CategoryChild[];
   id: number | undefined;
 };
 
-const CategoryChild: React.FC<CategoryChildProps> = ({ children, id }) => {
+const CategoryChild: React.FC<CategoryChildProps> = ({ childrenObj, id }) => {
   return (
     <>
-      {children.length > 0 ? (
+      {childrenObj.length > 0 ? (
         <section className="w-11/12 mx-auto my-10">
           <h3 className="text-center text-2xl mb-8">خرید بر اساس دسته بندی</h3>
           <div className="grid grid-cols-3 gap-8 md:grid-cols-4 lg:grid-cols-5">
-            {children.map((child, index) => (
+            {childrenObj.map((child, index) => (
               <Link
                 href={`/category/${id}/daste-bandy/${child.category_id}`}
                 key={index}

@@ -1,10 +1,10 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 
 function LoginPage() {
-  const [userData , setUserData] = useState({})
+  // const [userData , setUserData] = useState({})
 
   return (
     <div className="border w-96 my-[10%] mx-auto p-4">
