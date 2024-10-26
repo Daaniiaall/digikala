@@ -46,6 +46,7 @@ export interface Products {
   category_title: string;
   properties: Properties;
   title_fa: string;
+  brand: Brands
 }
 
 interface Data {
